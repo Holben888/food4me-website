@@ -1,0 +1,72 @@
+:root {
+  --primary: #bd3a44;
+  --body: #333;
+}
+
+html {
+  font-family: hero-new, Arial, Helvetica, sans-serif;
+  color: var(--body);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: hero-new, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+main {
+  margin: 20px;
+  padding-top: 100px;
+}
+
+nav {
+  padding: 20px 0;
+  background: var(--primary);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+img.logo {
+  height: 40px;
+  margin-right: auto;
+}
+
+nav a,
+nav a:visited {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav .content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin: 0 20px;
+  }
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
