@@ -79,10 +79,20 @@ section.video-panel {
   background: #ffedee;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .content {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  nav a {
+    display: none;
   }
 }
 
