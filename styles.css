@@ -18,14 +18,19 @@ h3 {
   font-family: hero-new, Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
 
 main {
-  margin: 20px;
   padding-top: 100px;
 }
 
 nav {
-  padding: 20px 0;
   background: var(--primary);
   position: fixed;
   left: 0;
@@ -40,7 +45,7 @@ img.logo {
 
 nav a,
 nav a:visited {
-  color: white;
+  color: #fff6a3;
   text-decoration: none;
   margin: 0 20px;
   font-weight: bold;
@@ -54,12 +59,30 @@ nav .content {
 
 .content {
   max-width: 900px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+iframe {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section.video-panel {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: #ffedee;
 }
 
 @media (max-width: 1200px) {
   .content {
-    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
